@@ -1,0 +1,13 @@
+asyncapi: 2.0.0
+info:
+  title: Valid AsyncApi document
+  version: '1.0'
+channels:
+  channel:
+    publish:
+      operationId: publish
+      message:
+        $ref: http://raw.githubusercontent.com/asyncapi/spec/v2.0.0/examples/2.0.0/streetlights.yml#/components/messages/lightMeasured
+servers:
+  dummy-amqp:
+    $ref: http://raw.githubusercontent.com/asyncapi/generator/a5c02dac4aa16f7d68e92d205ef7f05b2f97f529/test/docs/dummy.yml#/components/messages/dummyCreated
