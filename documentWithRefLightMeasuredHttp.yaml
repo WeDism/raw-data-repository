@@ -7,4 +7,4 @@ channels:
     publish:
       operationId: publish
       message:
-        $ref: http://raw.githubusercontent.com/asyncapi/spec/v2.0.0/examples/2.0.0/streetlights.yml#/components/messages/lightMeasured
+        $ref: https://raw.githubusercontent.com/WeDism/raw-data-repository/refs/heads/main/streetlightsWeDism.yml#/components/messages/lightMeasured
